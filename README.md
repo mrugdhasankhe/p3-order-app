@@ -123,27 +123,26 @@ The following test cases were performed to validate the application functionalit
 
 ---
 
-### 2. S3 Upload Test
-
-- Verified that objects can be uploaded to S3
-
-![S3 Test](Screenshots/S3-verification-on-first-test.png)
-
----
-
-### 3. DynamoDB Table Creation
+### 2. DynamoDB Table Creation
 
 - Verified that DynamoDB table was created
 
 ![DynamoDB](Screenshots/DynamoDB.png)
 
 ---
+### 3. Lambda Function Creation
 
-### 4. DynamoDB Insert Test
+- Verified Lambda function was successfully created
 
-- Verified that order data is stored in DynamoDB
+![Lambda](Screenshots/LambdaFunction.png)
 
-![DynamoDB Test](Screenshots/DynamoDB_verification-on-first-test.png)
+---
+
+### 4. Cognito User Pool Setup
+
+- Verified Cognito user pool creation
+
+![Cognito](Screenshots/Cognito.png)
 
 ---
 
@@ -155,15 +154,7 @@ The following test cases were performed to validate the application functionalit
 
 ---
 
-### 6. Lambda Function Creation
-
-- Verified Lambda function was successfully created
-
-![Lambda](Screenshots/LambdaFunction.png)
-
----
-
-### 7. Lambda Execution Test
+### 6. Lambda First Demo Execution Test
 
 - Verified Lambda execution and response
 
@@ -171,11 +162,19 @@ The following test cases were performed to validate the application functionalit
 
 ---
 
-### 8. Cognito User Pool Setup
+### 7. DynamoDB Initial Insertion Test
 
-- Verified Cognito user pool creation
+- Verified that order data is stored in DynamoDB
 
-![Cognito](Screenshots/Cognito.png)
+![DynamoDB Test](Screenshots/DynamoDB_verification-on-first-test.png)
+
+---
+
+### 8. S3 Invoice creation Initial Test
+
+- Verified that objects can be uploaded to S3
+
+![S3 Test](Screenshots/S3-verification-on-first-test.png)
 
 ---
 
@@ -226,7 +225,6 @@ The following test cases were performed to validate the application functionalit
 ![DynamoDB Final](Screenshots/Final_verification_DynamoDB_order_creation.png)
 
 ---
-
 ### 15. S3 Invoice Generation
 
 - Verified invoice file created in S3 bucket
