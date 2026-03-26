@@ -119,7 +119,7 @@ The following test cases were performed to validate the application functionalit
 
 - Verified that the S3 bucket was successfully created
 
-![S3 Bucket](ScreenShots/S3-bucket.png)
+![S3 Bucket](Screenshots/S3-bucket.png)
 
 ---
 
@@ -127,7 +127,7 @@ The following test cases were performed to validate the application functionalit
 
 - Verified that objects can be uploaded to S3
 
-![S3 Test](ScreenShots/S3-verification-on-first-test.png)
+![S3 Test](Screenshots/S3-verification-on-first-test.png)
 
 ---
 
@@ -135,7 +135,7 @@ The following test cases were performed to validate the application functionalit
 
 - Verified that DynamoDB table was created
 
-![DynamoDB](ScreenShots/DynamoDB.png)
+![DynamoDB](Screenshots/DynamoDB.png)
 
 ---
 
@@ -143,7 +143,7 @@ The following test cases were performed to validate the application functionalit
 
 - Verified that order data is stored in DynamoDB
 
-![DynamoDB Test](ScreenShots/DynamoDB_verification-on-first-test.png)
+![DynamoDB Test](Screenshots/DynamoDB_verification-on-first-test.png)
 
 ---
 
@@ -151,7 +151,7 @@ The following test cases were performed to validate the application functionalit
 
 - Verified IAM roles and permissions for Lambda execution
 
-![IAM Roles](ScreenShots/IAM-roles.png)
+![IAM Roles](Screenshots/IAM-roles.png)
 
 ---
 
@@ -159,7 +159,7 @@ The following test cases were performed to validate the application functionalit
 
 - Verified Lambda function was successfully created
 
-![Lambda](ScreenShots/LambdaFunction.png)
+![Lambda](Screenshots/LambdaFunction.png)
 
 ---
 
@@ -167,7 +167,7 @@ The following test cases were performed to validate the application functionalit
 
 - Verified Lambda execution and response
 
-![Lambda Test](ScreenShots/LambdaFunction_verification-on-first-test.png)
+![Lambda Test](Screenshots/LambdaFunction_verification-on-first-test.png)
 
 ---
 
@@ -175,7 +175,7 @@ The following test cases were performed to validate the application functionalit
 
 - Verified Cognito user pool creation
 
-![Cognito](ScreenShots/Cognito.png)
+![Cognito](Screenshots/Cognito.png)
 
 ---
 
@@ -183,7 +183,7 @@ The following test cases were performed to validate the application functionalit
 
 - Verified hosted UI domain configuration
 
-![Cognito Domain](ScreenShots/Cognito_custom_domain.png)
+![Cognito Domain](Screenshots/Cognito_custom_domain.png)
 
 ---
 
@@ -191,7 +191,7 @@ The following test cases were performed to validate the application functionalit
 
 - Verified frontend is accessible via CloudFront
 
-![CloudFront](ScreenShots/CloudFront_Test.png)
+![CloudFront](Screenshots/CloudFront_Test.png)
 
 ---
 
@@ -199,7 +199,7 @@ The following test cases were performed to validate the application functionalit
 
 - Verified user login using Cognito Hosted UI
 
-![Cognito Login](ScreenShots/Cognito_Test.png)
+![Cognito Login](Screenshots/Cognito_Test.png)
 
 ---
 
@@ -207,7 +207,7 @@ The following test cases were performed to validate the application functionalit
 
 - Verified email OTP confirmation during signup
 
-![Cognito OTP](ScreenShots/Cognito_Test_OTP_verification.png)
+![Cognito OTP](Screenshots/Cognito_Test_OTP_verification.png)
 
 ---
 
@@ -215,7 +215,7 @@ The following test cases were performed to validate the application functionalit
 
 - Verified order submission from frontend
 
-![Frontend Output](ScreenShots/Final_verification_OutputOnFrontend_order_placement.png)
+![Frontend Output](Screenshots/Final_verification_OutputOnFrontend_order_placement.png)
 
 ---
 
@@ -223,7 +223,7 @@ The following test cases were performed to validate the application functionalit
 
 - Verified order record created in DynamoDB
 
-![DynamoDB Final](ScreenShots/Final_verification_DynamoDB_order_creation.png)
+![DynamoDB Final](Screenshots/Final_verification_DynamoDB_order_creation.png)
 
 ---
 
@@ -231,7 +231,7 @@ The following test cases were performed to validate the application functionalit
 
 - Verified invoice file created in S3 bucket
 
-![S3 Invoice](ScreenShots/Final_verification_S3_invoice_creation.png)
+![S3 Invoice](Screenshots/Final_verification_S3_invoice_creation.png)
 
 ---
 
